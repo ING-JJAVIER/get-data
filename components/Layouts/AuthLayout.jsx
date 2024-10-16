@@ -1,7 +1,7 @@
 import Navbar from "../Navbar"
 import Sidebar from "../Sidebar"
 
-function AuthLayout({children}) {
+export default function AuthLayout({children}) {
     return (
       <div className="h-screen w-full flex">
         <Sidebar />
@@ -14,6 +14,3 @@ function AuthLayout({children}) {
       </div>
     )
   } 
-
-
-  export default AuthLayout
